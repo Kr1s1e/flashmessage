@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'milkyJuice';
-    src: url('../assets/fonts/milky\ juice/.otf') format('otf');
+    src: url('../assets/fonts/milkyjuice/MilkyJuice.otf') format('otf');
 }
 
 .main{
@@ -15,9 +15,27 @@
 
 }
 
-.phwords{
+.toggle-button{
+    background-color: #673636;
+    font-size: large;
     font-family: 'milkyJuice';
+    border: 2px solid #532d2d;
+    border-radius: 3px;
+    margin: 3px;
+    padding: 3px;
+    box-shadow: 2px 2px 3px #00000070;
+
+    cursor: pointer;
 }
+
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
 
 html,body{
     height: fit-content;
